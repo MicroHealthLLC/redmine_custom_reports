@@ -29,12 +29,8 @@ you can do so by changing into your plugin directory and issuing a command like
 You should see the "Custom reports" module at the end of the modules list.
 Enable plugin at project level. Now you will see "Custom report" tab at the project menu.
 
-## Screenshot
-
-![Sample](https://github.com/nodecarter/redmine_custom_reports/raw/master/screenshot.png)
 
 ## Compatibility
 
-This version supports redmine 2.x and 3.x
+This version supports redmine3.x
 
-For all tested versions see the "tests matrix":https://travis-ci.org/nodecarter/redmine_custom_reports
