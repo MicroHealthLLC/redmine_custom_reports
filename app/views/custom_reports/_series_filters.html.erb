@@ -6,6 +6,7 @@
       <table>
         <% query.available_filters.each do |field, options| %>
           <%
+             next unless has_operator_for_select?(options[:type])
              field_id = "#{series_id}_#{field}"
           %>
           <tr <%= "style=\"display:none\"".html_safe unless query.has_filter?(field) %>
